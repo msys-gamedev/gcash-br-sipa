@@ -1,5 +1,6 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Chatbubble" preserve="all" />
     <type fullname="Gamebox.Controller.UIAnimationController" preserve="all" />
     <type fullname="Gamebox.Misc.SettingsUIToggle" preserve="all" />
     <type fullname="Gamebox.Misc.StartCountdown" preserve="all" />
@@ -9,6 +10,7 @@
     <type fullname="Gamebox.UIAnimation.UIPanelAnimation" preserve="all" />
     <type fullname="GameCutscenes" preserve="all" />
     <type fullname="GameManager" preserve="all" />
+    <type fullname="GameOverChats" preserve="all" />
     <type fullname="HitPauseManager" preserve="all" />
     <type fullname="IntroCutsceneControl" preserve="all" />
     <type fullname="KickDetector" preserve="all" />
@@ -20,6 +22,7 @@
     <type fullname="SipaHitAction" preserve="all" />
     <type fullname="Tiny.Trail" preserve="all" />
     <type fullname=".GameCutscenes/Cutscene" preserve="nothing" serialized="true" />
+    <type fullname=".KickDetector/AudioControlClass" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Controller.UIAnimationController/ButtonConfiguration" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Controller.UIAnimationController/GameLogoConfiguration" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Controller.UIAnimationController/PanelConfiguration" preserve="nothing" serialized="true" />
@@ -118,6 +121,7 @@
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
     <type fullname="UnityEngine.AudioListener" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -163,6 +167,9 @@
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
@@ -194,5 +201,8 @@
     <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
