@@ -20,6 +20,7 @@
     <type fullname="ShadowCast" preserve="all" />
     <type fullname="ShuttlecockAnimation" preserve="all" />
     <type fullname="SipaHitAction" preserve="all" />
+    <type fullname="SkyboxRotate" preserve="all" />
     <type fullname="Tiny.Trail" preserve="all" />
     <type fullname=".GameCutscenes/Cutscene" preserve="nothing" serialized="true" />
     <type fullname=".KickDetector/AudioControlClass" preserve="nothing" serialized="true" />
