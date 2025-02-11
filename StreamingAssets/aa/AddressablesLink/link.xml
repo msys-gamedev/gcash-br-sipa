@@ -112,14 +112,10 @@
   <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Timeline.AnimationPlayableAsset" preserve="all" />
     <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
-    <type fullname="UnityEngine.Timeline.AudioPlayableAsset" preserve="all" />
-    <type fullname="UnityEngine.Timeline.AudioTrack" preserve="all" />
     <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
     <type fullname="UnityEngine.Timeline.MarkerList" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Timeline.TimelineClip" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Timeline.AudioClipProperties" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Timeline.AudioMixerProperties" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
@@ -184,6 +180,7 @@
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
