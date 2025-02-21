@@ -1,6 +1,7 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Chatbubble" preserve="all" />
+    <type fullname="EndResultPanelAnimation" preserve="all" />
     <type fullname="Gamebox.Controller.UIAnimationController" preserve="all" />
     <type fullname="Gamebox.Misc.SettingsUIToggle" preserve="all" />
     <type fullname="Gamebox.Misc.StartCountdown" preserve="all" />
@@ -17,11 +18,15 @@
     <type fullname="PlayerAnimationEvent" preserve="all" />
     <type fullname="PlayerController" preserve="all" />
     <type fullname="PlayerInputControl" preserve="all" />
+    <type fullname="PlayerTutorial" preserve="all" />
     <type fullname="ShadowCast" preserve="all" />
     <type fullname="ShuttlecockAnimation" preserve="all" />
     <type fullname="SipaHitAction" preserve="all" />
     <type fullname="SkyboxRotate" preserve="all" />
     <type fullname="Tiny.Trail" preserve="all" />
+    <type fullname="TutorialHitAction" preserve="all" />
+    <type fullname="TutorialManager" preserve="all" />
+    <type fullname="TutorialUI" preserve="all" />
     <type fullname=".GameCutscenes/Cutscene" preserve="nothing" serialized="true" />
     <type fullname=".KickDetector/AudioControlClass" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Controller.UIAnimationController/ButtonConfiguration" preserve="nothing" serialized="true" />
@@ -30,6 +35,7 @@
     <type fullname="Gamebox.Service.UIManager/GameOverPanel" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Service.UIManager/InGamePanel" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Service.UIManager/UIPanels" preserve="nothing" serialized="true" />
+    <type fullname=".TutorialUI/TutorialClass" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="DG.Tweening.DOTweenAnimation" preserve="all" />
