@@ -26,6 +26,7 @@
     <type fullname="Gamebox.UIAnimation.UIButtonAnimator" preserve="all" />
     <type fullname="Gamebox.UIAnimation.UIGameLogoAnimation" preserve="all" />
     <type fullname="Gamebox.UIAnimation.UIPanelAnimation" preserve="all" />
+    <type fullname="NetworkChecker" preserve="all" />
     <type fullname="Tiny.Trail" preserve="all" />
     <type fullname="Gamebox.Game.Cutscene.GameCutscenes/Cutscene" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Game.Action.KickDetector/AudioControlClass" preserve="nothing" serialized="true" />
