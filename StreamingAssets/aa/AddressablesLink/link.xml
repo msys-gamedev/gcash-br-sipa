@@ -1,41 +1,41 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Chatbubble" preserve="all" />
-    <type fullname="EndResultPanelAnimation" preserve="all" />
     <type fullname="Gamebox.Controller.UIAnimationController" preserve="all" />
+    <type fullname="Gamebox.Game.Action.KickDetector" preserve="all" />
+    <type fullname="Gamebox.Game.Action.SipaHitAction" preserve="all" />
+    <type fullname="Gamebox.Game.Cutscene.EndResultPanelAnimation" preserve="all" />
+    <type fullname="Gamebox.Game.Cutscene.GameCutscenes" preserve="all" />
+    <type fullname="Gamebox.Game.Cutscene.IntroCutsceneControl" preserve="all" />
+    <type fullname="Gamebox.Game.Manager.GameManager" preserve="all" />
+    <type fullname="Gamebox.Game.Player.PlayerController" preserve="all" />
+    <type fullname="Gamebox.Game.Player.PlayerInputControl" preserve="all" />
+    <type fullname="Gamebox.Game.Tutorial.Action.TutorialHitAction" preserve="all" />
+    <type fullname="Gamebox.Game.Tutorial.Manager.TutorialManager" preserve="all" />
+    <type fullname="Gamebox.Game.Tutorial.Manager.TutorialUI" preserve="all" />
+    <type fullname="Gamebox.Game.Tutorial.Player.PlayerTutorial" preserve="all" />
+    <type fullname="Gamebox.Game.UI.Chatbubble" preserve="all" />
+    <type fullname="Gamebox.Game.UI.GameOverChats" preserve="all" />
+    <type fullname="Gamebox.Game.Utility.HitPauseManager" preserve="all" />
+    <type fullname="Gamebox.Game.Utility.PlayerAnimationEvent" preserve="all" />
+    <type fullname="Gamebox.Game.Utility.ShadowCast" preserve="all" />
+    <type fullname="Gamebox.Game.Utility.ShuttlecockAnimation" preserve="all" />
+    <type fullname="Gamebox.Game.Utility.SkyboxRotate" preserve="all" />
     <type fullname="Gamebox.Misc.SettingsUIToggle" preserve="all" />
     <type fullname="Gamebox.Misc.StartCountdown" preserve="all" />
     <type fullname="Gamebox.Service.UIManager" preserve="all" />
     <type fullname="Gamebox.UIAnimation.UIButtonAnimator" preserve="all" />
     <type fullname="Gamebox.UIAnimation.UIGameLogoAnimation" preserve="all" />
     <type fullname="Gamebox.UIAnimation.UIPanelAnimation" preserve="all" />
-    <type fullname="GameCutscenes" preserve="all" />
-    <type fullname="GameManager" preserve="all" />
-    <type fullname="GameOverChats" preserve="all" />
-    <type fullname="HitPauseManager" preserve="all" />
-    <type fullname="IntroCutsceneControl" preserve="all" />
-    <type fullname="KickDetector" preserve="all" />
-    <type fullname="PlayerAnimationEvent" preserve="all" />
-    <type fullname="PlayerController" preserve="all" />
-    <type fullname="PlayerInputControl" preserve="all" />
-    <type fullname="PlayerTutorial" preserve="all" />
-    <type fullname="ShadowCast" preserve="all" />
-    <type fullname="ShuttlecockAnimation" preserve="all" />
-    <type fullname="SipaHitAction" preserve="all" />
-    <type fullname="SkyboxRotate" preserve="all" />
     <type fullname="Tiny.Trail" preserve="all" />
-    <type fullname="TutorialHitAction" preserve="all" />
-    <type fullname="TutorialManager" preserve="all" />
-    <type fullname="TutorialUI" preserve="all" />
-    <type fullname=".GameCutscenes/Cutscene" preserve="nothing" serialized="true" />
-    <type fullname=".KickDetector/AudioControlClass" preserve="nothing" serialized="true" />
+    <type fullname="Gamebox.Game.Cutscene.GameCutscenes/Cutscene" preserve="nothing" serialized="true" />
+    <type fullname="Gamebox.Game.Action.KickDetector/AudioControlClass" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Controller.UIAnimationController/ButtonConfiguration" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Controller.UIAnimationController/GameLogoConfiguration" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Controller.UIAnimationController/PanelConfiguration" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Service.UIManager/GameOverPanel" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Service.UIManager/InGamePanel" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Service.UIManager/UIPanels" preserve="nothing" serialized="true" />
-    <type fullname=".TutorialUI/TutorialClass" preserve="nothing" serialized="true" />
+    <type fullname="Gamebox.Game.Tutorial.Manager.TutorialUI/TutorialClass" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="DG.Tweening.DOTweenAnimation" preserve="all" />
@@ -118,7 +118,11 @@
   <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Timeline.AnimationPlayableAsset" preserve="all" />
     <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.AudioPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.AudioTrack" preserve="all" />
     <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.AudioClipProperties" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.AudioMixerProperties" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Timeline.MarkerList" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Timeline.TimelineClip" preserve="nothing" serialized="true" />
