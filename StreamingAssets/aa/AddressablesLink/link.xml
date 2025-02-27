@@ -28,8 +28,8 @@
     <type fullname="Gamebox.UIAnimation.UIGameLogoAnimation" preserve="all" />
     <type fullname="Gamebox.UIAnimation.UIPanelAnimation" preserve="all" />
     <type fullname="Tiny.Trail" preserve="all" />
-    <type fullname="Gamebox.Game.Cutscene.GameCutscenes/Cutscene" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Game.Action.KickDetector/AudioControlClass" preserve="nothing" serialized="true" />
+    <type fullname="Gamebox.Game.Cutscene.GameCutscenes/Cutscene" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Controller.UIAnimationController/ButtonConfiguration" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Controller.UIAnimationController/GameLogoConfiguration" preserve="nothing" serialized="true" />
     <type fullname="Gamebox.Controller.UIAnimationController/PanelConfiguration" preserve="nothing" serialized="true" />
